@@ -31,9 +31,9 @@ export const Carousel = ({ products }: Props) => {
           <Image
             src={currentProduct.images[0]}
             alt={currentProduct.name}
-            layout="fill"
-            objectFit="cover"
-            className="transition-opacity duration-500 ease-in-out"
+            fill
+            sizes="(max-width: 768px) 100vw, 75vw"
+            className="object-cover transition-opacity duration-500 ease-in-out"
           />
         </div>
       )}

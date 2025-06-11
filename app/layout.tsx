@@ -5,6 +5,10 @@ import { Navbar } from "@/components/navbar";
 export const metadata: Metadata = {
   title: "MyStore",
   description: "Buy cool products",
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-icon.png',
+  },
 };
 
 export default function RootLayout({
