@@ -234,7 +234,7 @@ export default async function Home() {
       <div className="flex flex-col items-center justify-center py-20 space-y-4">
         <div className="glass p-8 rounded-3xl text-center">
           <h2 className="text-2xl font-bold text-gray-900">No Products Available</h2>
-          <p className="text-gray-500">We're updating our collection. Please check back soon.</p>
+          <p className="text-gray-500">We&apos;re updating our collection. Please check back soon.</p>
           <Button asChild className="mt-6 rounded-full px-8 py-6 bg-blue-600 hover:bg-blue-700">
             <Link href="/products">Browse All Collection</Link>
           </Button>
